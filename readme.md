@@ -12,7 +12,7 @@ BOARD_PCA10040 BSP_DEFINES_ONLY CONFIG_GPIO_AS_PINRESET FLOAT_ABI_HARD NRF52840_
 - Misc Controls `--reduce_paths`
 - Include Paths
 `
-..\..\..\..\..\commons\led; //自己编写的类库（commons）
+..\..\..\..\..\commons\led;
 ..\..\..\..\..\components;
 ..\..\..\..\..\components\libraries\delay;
 ..\..\..\..\..\modules\nrfx\hal;
@@ -28,3 +28,4 @@ BOARD_PCA10040 BSP_DEFINES_ONLY CONFIG_GPIO_AS_PINRESET FLOAT_ABI_HARD NRF52840_
 1. 闪灯 `examples/led_blinky`
 2. 按键 `examples/buttons`
 3. 触摸按键 `examples/touch_button`
+4. 蜂鸣器 `examples/beep`
